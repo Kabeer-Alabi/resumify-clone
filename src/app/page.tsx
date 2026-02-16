@@ -8,51 +8,37 @@ import { motion } from 'framer-motion';
 
 const services = [
   {
-    title: 'Stakeholder Communication & Delivery',
-    description: 'Support executive and VP-level stakeholders by translating business needs into actionable analytics.',
+    title: 'Cross-Functional Collaboration',
+    description: 'Partner with product, engineering, and operations teams to gather requirements, clarify objectives, and support delivery of data-driven solutions.',
   },
   {
-    title: 'Metrics & KPI Design',
-    description: 'Design and maintain portfolio, cost, risk, and performance KPIs used across multiple teams.',
+    title: 'Operational Analytics & Insight Generation',
+    description: 'Analyze performance metrics and reporting dashboards to identify trends, gaps, and opportunities for process improvement.',
   },
   {
-    title: 'Analytics Engineering & Reporting',
-    description: 'Develop SQL-based data models, ETL pipelines, and BI dashboards supporting enterprise reporting.',
+    title: 'Reporting & Process Documentation',
+    description: 'Develop structured documentation, workflow diagrams, and status updates to support feature rollouts, Agile planning, and operational alignment.',
   },
   {
-    title: 'Leadership & Enablement',
-    description: 'Mentored 15+ analysts, managers, and partners in SQL and BI best practices.',
+    title: 'Continuous Learning & Professional Growth',
+    description: 'Adapt quickly to new tools and environments, actively seeking feedback and opportunities to strengthen communication, analytical, and leadership skills.',
   },
 ];
 
 const testimonials = [
   {
-    name: 'Zhaohu (Johnathan) Fan',
-    company: 'Business Analytics Graduate Professor @ Georgia Tech',
-    image: '\_Zhaohu Johnathan Fan.webp',
+    name: 'Richie Tran',
+    company: 'FIS - Data Analyst',
+    image: '\_Richie Tran.jpg',
     rating: 5,
-    text: 'During a Fortune 500 project, he developed a sustainable analytics dashboard that demonstrated both technical skill and strategic insight. His clear communication, innovative problem-solving, and strong contributions in corporate meetings and presentations set him apart as a driven and effective analyst lead.',
+    text: 'Top G',
   },
   {
-    name: 'Davis King',
-    company: 'Senior Analytics Consultant @ Analytic Vizion',
-    image: '\_Davis King.jpg',
+    name: 'Hossam Farid',
+    company: 'Floaty AI - CEO',
+    image: '\Hossam.jpg',
     rating: 5,
-    text: 'As Richie\'s mentor during a business analytics practicum with Home Depot leaders, I was impressed by his initiative and leadership. He drove the project forward, led stakeholder discussions, and challenged my analytical thinking as an MBA graduate.',
-  },
-  {
-    name: 'Jim Holman',
-    company: 'Director of Technology Advisory Services @ Cherry Bekaert',
-    image: '\_Jim Holman.jpg',
-    rating: 5,
-    text: 'I saw that Richie brought a fresh perspective and positive attitude during each meeting he was in. He learns technical tools extremely quickly and is a consise communicator when facing problems and presenting solutions.',
-  },
-  {
-    name: 'Kabeer Alabi',
-    company: 'Software Engineer @ Floaty AI',
-    image: '\_Kabeer Alabi.png',
-    rating: 5,
-    text: 'Richie consistently brings new ideas, shows accountability, and keeps our product roadmap on track. His collaborative and optimistic attitude makes him a reliable and enjoyable teammate.',
+    text: 'Goated',
   }
 ];
 
@@ -88,8 +74,7 @@ export default function AboutMe() {
             <PageNav />
           </div>
           <p className="text-lg text-resumify-gray leading-relaxed max-w-4xl">
-          Richie Tran leads enterprise analytics initiatives, aligning data strategy with organizational goals. 
-          He bridges technical expertise and project leadership to deliver timely, high-value insights that shape executive decisions.  
+          Kabeer Alabi is a software and data professional with a passion for leveraging technology to solve complex problems. With experience in backend development and data analysis, Kabeer has a proven track record of delivering impactful solutions that drive business success. As a first-generation graduate, Kabeer is committed to continuous learning and growth in the tech industry.
          </p>
         </motion.div>
 
@@ -147,7 +132,7 @@ export default function AboutMe() {
         </motion.div>
 
         {/* Worked With */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
@@ -166,7 +151,7 @@ export default function AboutMe() {
               </div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Fun Facts */}
         <motion.div

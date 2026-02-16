@@ -26,32 +26,6 @@ type PortfolioItem = {
 ============================== */
 const portfolioItems: PortfolioItem[] = [
   {
-    id: '6',
-    title: 'Home Depot Analytics',
-    category: 'Analytics',
-    images: ['/HomeDepot1.jpg', '/HomeDepot2.jpg'],
-    context: 'Analyzed the relationship between store tasks and KPIs across the stores nationwide - Current image is 1/3 pages of a story board',
-    impact: [
-      'Explained seasonality and and action items based on each cluster of stores',
-      'Identified overarching trends and potential data gaps.',
-      'Used EDA (matplotlib, seaborn) to identify misrecordings, inconsistencies, outliers, and manual entry errors, which were then corrected with stakeholders.'
-    ],
-  },
-  {
-    id: '7',
-    title: 'Hotel Cancellation Analysis',
-    category: 'Analytics',
-    image: '/Hotel Cancellation.jpg',
-    pdf: '/Hotel Cancellation.pdf',
-    context: 'Machine Learning Business Analytics Project analyzing hotel booking cancellations',
-    impact: [
-      'Used ML models (RF, GBT, NN) to predict booking cancellations',
-      'Identified key cancellation drivers: Deposit_Type, Total_of_special_requests, Lead_time',
-      'Developed predictive models to flag high-risk bookings for early intervention',
-      'Provided actionable insights for dynamic pricing and revenue protection'
-    ],
-  },
-  {
     id: '5',
     title: 'Floaty AI',
     category: 'AI',
@@ -64,17 +38,6 @@ const portfolioItems: PortfolioItem[] = [
     ],
     url: 'https://floatyai.com',
   },
-  { 
-    id: '2',
-    title: 'Airline Industries',
-    category: 'Analytics',
-    images: ['/Airline Dashboardpng.png'],
-    context: 'Part of a strategic report that discusses COVID-19 impact on airline industries',
-    impact: [
-      'Aggregated TSA checkpoint data to highlight worker shorters, restrictions, and other passenger information.',
-      'Used the data to explain what happened strategically and highlight where responses could have been improved.',
-    ],
-  },
   {
     id: '1',
     title: 'Christmas Sales Analysis',
@@ -85,28 +48,6 @@ const portfolioItems: PortfolioItem[] = [
       'Identifies best performing categories and SKUs to prioritize',
       'Answers high level questions on demand patterns, customer behavior, and inventory levels',
       'Uses countries, shopping preferences, and purchase frequencies to create customer personas for future marketing strategies'
-    ],
-  },
-  {
-    id: '3',
-    title: 'Item Request Tracker',
-    category: 'Data Reporting',
-    image: '/Story Board.png',
-    context: 'Aggregates requests from customers based on agile methodology.',
-    impact: [
-      'Helps product and project managers organizes requests and allocate resources', 
-      'Helps leaders track progress and deliverables to ensure timely delivery'
-    ],
-  },
-  {
-    id: '4',
-    title: 'Production Support',
-    category: 'Data Reporting',
-    image: '/Production Support.png',
-    context: 'Aggregates production support request from customers and internal teams',
-    impact: [
-      'Helps leaders prioritize outages and address them in a timely manner', 
-      'Encourages others to find sustainable solutions to common issues'
     ],
   },
 ];
