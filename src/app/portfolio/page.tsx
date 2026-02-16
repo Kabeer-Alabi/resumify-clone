@@ -52,7 +52,7 @@ const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-const categories = ['All', 'Analytics', 'AI', 'Data Reporting'] as const;
+const categories = ['All', 'AI', 'Data Reporting'] as const;
 
 /* ==============================
    Helpers

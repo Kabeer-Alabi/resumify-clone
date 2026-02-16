@@ -66,8 +66,8 @@ const brands = [
 ];
 
 const stats = [
-  { label: 'Developed Reports', value: '+20' },
   { label: 'APIs Designed', value: '+10' },
+  { label: 'Bench Press', value: '+225' },
   { label: 'Cities Visited', value: '+10' }
 ];
 
