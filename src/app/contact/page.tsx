@@ -13,12 +13,12 @@ const contactInfo = [
   },
   {
     icon: '/phone.svg',
-    title: '(667) 334-4362',
+    title: '667-334-4362',
     description: 'Phone',
   },
   {
     icon: '/email.svg',
-    title: 'kalabi077@email.com',
+    title: 'kalabi077@gmail.com',
     description: 'Email',
   },
   {
@@ -109,13 +109,13 @@ export default function Contact() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="mailto:richietran11@email.com"
+                  href="mailto:kabeeralabi077@gmail.com"
                   className="px-8 py-3 bg-resumify-pink text-white rounded-full hover:bg-resumify-pink/90 transition-colors font-medium"
                 >
                   Send Email
                 </a>
                 <a
-                  href="tel:+4048207894"
+                  href="tel:+6673344362"
                   className="px-8 py-3 border-2 border-resumify-pink text-resumify-pink rounded-full hover:bg-resumify-pink hover:text-white transition-colors font-medium"
                 >
                   Call Now

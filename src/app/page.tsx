@@ -31,14 +31,28 @@ const testimonials = [
     company: 'FIS - Data Analyst',
     image: '\_Richie Tran.jpg',
     rating: 5,
-    text: 'Top G',
+    text: "Kabeer brings strong analytical thinking and consistently translates technical work into clear, actionable insights. He approaches problems with structure and a focus on measurable results."
   },
   {
     name: 'Hossam Farid',
     company: 'Floaty AI - CEO',
     image: '\Hossam.jpg',
     rating: 5,
-    text: 'Goated',
+    text: "Kabeer effectively coordinated AI initiatives across teams and ensured projects were delivered with clarity and precision. He balances technical depth with strong communication."
+  },
+  {
+    name: 'Mohamed Younis',
+    company: "UMBC - Professor",
+    image: '\Younis.jpg',
+    rating: 5,
+    text: "Kabeer demonstrated disciplined problem-solving and clear technical communication throughout his studies. He has a strong analytical foundation and a drive to continuously improve."
+  },
+  {
+    name: 'Nay Maung',
+    company: 'USPTO - Supervisory Patent Examiner',
+    image: '\Nay.jpg',
+    rating: 5,
+    text: "Kabeer applied structured analytical reasoning when evaluating complex technical systems. He communicates findings clearly and works with professionalism and attention to detail."
   }
 ];
 
@@ -53,7 +67,7 @@ const brands = [
 
 const stats = [
   { label: 'Developed Reports', value: '+20' },
-  { label: 'Teaching Volunteer Hours', value: '+200' },
+  { label: 'APIs Designed', value: '+10' },
   { label: 'Cities Visited', value: '+10' }
 ];
 

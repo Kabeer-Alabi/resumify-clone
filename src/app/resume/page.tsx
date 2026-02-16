@@ -11,8 +11,8 @@ const experience = [
   {
     period: '2025 - Current',
     company: "Floaty AI",
-    title: "Backend Developer",
-    description: "Developed and maintained backend systems for AI-powered applications, including API development, database management, and integration with machine learning models.",
+    title: "Techinical Program Manager",
+    description: "Led cross-functional initiatives to integrate enterprise AI systems across multiple LLM providers, coordinating between engineering, product, and operations teams",
   },
   {
     period: '2024 - 2024',
