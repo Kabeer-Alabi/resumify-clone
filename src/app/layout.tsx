@@ -3,8 +3,8 @@ import "./globals.css";
 import ClientBody from "./ClientBody";
 
 export const metadata: Metadata = {
-  title: "Resumify - Richie Tran Portfolio",
-  description: "Elevate your online presence with Resumify's dynamic template. Craft a standout CV and portfolio effortlessly, reflecting your unique skills.",
+  title: "Kabeer Alabi Portfolio",
+  description: "Kabeer Alabi's portfolio showcasing projects, skills, and experience in software development and data analysis, and project management.",
 };
 
 export default function RootLayout({

@@ -23,7 +23,7 @@ export default function MobileNav() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Image
-              src="/_Kabeer Alabi.jpg"
+              src="/_Kabeer Alabi.png"
               alt="Kabeer Alabi"
               width={40}
               height={40}
